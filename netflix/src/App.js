@@ -8,7 +8,6 @@ import Start from "./pages/Start";
 function App() {
   return (
     <div>
-      <Navigation />
       <Routes>
         <Route path="/start" element={<Start />}/>
         {/* <Route path="/signup" element={<Signup />}/>
