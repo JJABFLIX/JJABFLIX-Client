@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Routes, Route} from "react-router-dom";
-import Navigation from './components/Navigation';
+import Navigation from './components/start/Navigation';
 import Start from "./pages/Start";
 
 function App() {
