@@ -1,50 +1,105 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
-.start-background{
+
+.start-background {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/7eec8be2-105c-4ce6-b9d9-5ff1dae1042a/KR-ko-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-    height:760px;
+    height: 760px;
 }
-.start-background::before{
-    position:absolute;
-    left:0;
-    width:100%;
-    height:760px;
+
+.start-background::before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 760px;
     content: '';
     background: linear-gradient(to bottom, black, transparent);
 }
-.start-first{
-    position:absolute;
-    padding:50px;
+
+.start-first {
+    position: absolute;
+    padding: 50px;
     z-index: 1;
 }
-.start-language{
-    width:90px;
-    height:40px;
-    border:2px solid white;
+
+.start-language {
+    width: 90px;
+    height: 40px;
+    border: 2px solid white;
     background-color: black;
-    color:white;
+    color: white;
     margin-left: 1000px;
 }
-.start-login-btn{
-    width:80px;
-    height:40px;
+
+.start-login-btn {
+    width: 80px;
+    height: 40px;
 }
-.start-content1{
-    position:absolute;
-    color:white;
-    
+
+.start-content1 {
+    position: absolute;
+    color: white;
+
 }
-.start-bar{
-    padding:7px;
+
+.start-bar {
+    padding: 7px;
     background-color: #222;
 }
-.join-input{
-    width:300px;
-    height:40px;
+
+.join-input {
+    width: 300px;
+    height: 40px;
 }
-.join-btn{
-    width:80px;
-    height:40px;
+
+.join-btn {
+    width: 80px;
+    height: 40px;
+}
+
+/**  signup css */
+.signup-logo-wrap {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.signup-step {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signup-title {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-h5 {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    color: #6c6c6c;
+    margin-bottom: 35px;
+}
+
+.signup-next-btn {
+    width: 350px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+}
+
+.signup-next-btn:hover {
+    background-color: #fb000d;
 }
