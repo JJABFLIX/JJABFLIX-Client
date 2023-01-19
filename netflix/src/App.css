@@ -65,11 +65,16 @@
 }
 
 .signup-step {
-    width: 350px;
     margin: 0 auto;
     display: block;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.signup-step b {
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .signup-title {
@@ -101,5 +106,86 @@
 }
 
 .signup-next-btn:hover {
+    background-color: #fb000d;
+}
+
+.signup-step-2 {
+    width: 450px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.signup-step-2 b {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.signup-title-2 {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.signup-h5-2 {
+    width: 450px;
+    margin: 0 auto;
+    color: #6c6c6c;
+    margin-bottom: 35px;
+}
+
+.signup-h5-2 h5 {
+    margin-bottom: 10px;
+}
+
+.signup-idpw-wrap {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.signup-idpw-wrap input {
+    display: block;
+    width: 450px;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #8c8c8c;
+}
+
+.signup-check-wrap-2 {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.signup-check-2 {
+    width: 27px;
+    height: 27px;
+    margin-right: 13px;
+    border-radius: 1px;
+}
+
+.signup-check-text-2 {
+    width: 410px;
+    margin-bottom: 10px;
+}
+
+.signup-next-btn-2 {
+    width: 450px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.signup-next-btn-2:hover {
     background-color: #fb000d;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Account = () => {
+const Signup = () => {
   return (
     <div>
       <div className="signup-logo-wrap">
@@ -14,7 +14,7 @@ const Account = () => {
         />
       </div>
       <span id="signupStep" className="signup-step">
-        <b>1</b>/<b>3</b>
+        <b>3</b>단계 중<b>1</b>단계
       </span>
       <div className="signup-title">
         <h2>계정 설정 마무리하기</h2>
@@ -33,4 +33,4 @@ const Account = () => {
   );
 };
 
-export default Account;
+export default Signup;

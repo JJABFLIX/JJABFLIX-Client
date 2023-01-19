@@ -4,17 +4,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Start from "./pages/Start";
-import Account from "./pages/Account";
+import Signup from "./pages/Signup";
+import Signup2 from "./pages/Signup2";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/start" element={<Start />} />
-        <Route path="/account" element={<Account />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup2" element={<Signup2 />} />
+
         {/* <Route path="/signup" element={<Signup />}/>
         <Route path="/login" element={<Login />}/>
-       
+        <Route path="/account" element={<Account />} />
         <Route path="/service" element={<Service />}/>
         <Route path="/profile" element={<Profile />}/>
         <Route path="/" element={<Home />}/> 
