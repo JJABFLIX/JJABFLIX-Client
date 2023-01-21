@@ -5,6 +5,7 @@
 .start-background{
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/7eec8be2-105c-4ce6-b9d9-5ff1dae1042a/KR-ko-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     height:760px;
+    width:100%;
 }
 .start-background::before{
     position:absolute;
@@ -79,7 +80,10 @@
     background-color: #222;
 }
 .join-bar{
+    width:700px;
+    height:70px;
     display: flex;
+    margin:10px auto;
 }
 .join-input{
     width:530px;
@@ -98,6 +102,109 @@
 }
 .start-section2{
     background-color: black;
-    height:470px;
+    width:1531px;
+    height:540px;
     display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.startright-img{
+    width:550px;
+    margin-left:20px;
+    margin-top:50px;
+}
+.startright-f{
+    color:white;
+    max-width:35%;
+    margin-left: 220px;
+}
+.startright-title{
+    font-size: 50px;
+    margin-top:150px;
+}
+.startright-info{
+    font-size:25px;
+    white-space: pre-wrap;
+}
+.startleft-i{
+   max-width: 35%;
+}
+.startleft-title{
+    font-size: 53px;
+    margin-top:130px;
+}
+.startleft-info{
+    font-size:23px;
+    white-space: pre-wrap;
+}
+.startleft-f{
+    color:white;
+    max-width:35%;
+    margin-left: 50px;
+}
+.startleft-img{
+    width:550px;
+    margin-top: 50px;
+}
+.start-section3{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.askcard{
+    position:relative;
+    width:800px;
+    height:80px;
+    background-color: #303030;
+    color:white;
+    margin:5px auto;
+    display: flex;
+    justify-content: left;
+}
+.asklist{
+    font-size: 50px;
+    color:white;
+    position:absolute;
+    z-index: 1;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.asks{
+    margin-top: 200px;
+}
+.askTitle{
+    font-size:27px;
+    line-height: 80px;
+    margin-left: 30px;
+}
+.checkIcon{
+    position: absolute;
+    font-size:50px;
+    color:white;
+    line-height: 70px;
+    right:20px;
+}
+.answerBox{
+    width:800px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    margin:5px auto;
+    padding:30px;
+}
+.askContent{
+    font-size: 27px;
+    color:white;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.start-final{
+    font-size:18px;
+    color:white;
+    margin-top:70px;
+    margin-bottom: 20px;
+}
+.marginBox{
+    height:70px;
 }

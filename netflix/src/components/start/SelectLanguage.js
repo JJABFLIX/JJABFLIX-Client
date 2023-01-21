@@ -1,11 +1,10 @@
-import React from 'react'
-import { BiWorld } from "react-icons/bi"
+import React from 'react';
 
 const SelectLanguage = () => {
   return (
     <div>
         <select className='start-language'>
-              <option><BiWorld />한국어</option>
+              <option>한국어</option>
               <option>English</option>
         </select>
     </div>
