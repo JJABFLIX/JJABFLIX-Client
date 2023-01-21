@@ -1,0 +1,44 @@
+.signup-step-4 {
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.signup-step-4 b {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.signup-title-4 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.signup-check-wrap-4 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.signup-check-text2 {
+    width: 1000px;
+    height: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.signup-check-text2 h5 {
+    height: 30px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.signup3-icon {
+    height: 30px;
+    vertical-align: top;
+}
