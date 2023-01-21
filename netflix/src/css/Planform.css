@@ -42,3 +42,39 @@
     height: 30px;
     vertical-align: top;
 }
+
+.planform-logo-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.planform-logo-btn {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #ef6b72;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-wrap-basic {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.planform-logo-btn-basic {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #e50815;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}

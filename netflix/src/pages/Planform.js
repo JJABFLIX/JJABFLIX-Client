@@ -31,6 +31,11 @@ const Planform = () => {
           <h5>멤버십은 언제든지 변경 또는 해지 가능.</h5>
         </div>
       </div>
+      <div className="planform-logo-wrap">
+        <button className="planform-logo-btn">Basic</button>
+        <button className="planform-logo-btn">Standard</button>
+        <button className="planform-logo-btn">Premium</button>
+      </div>
     </div>
   );
 };
