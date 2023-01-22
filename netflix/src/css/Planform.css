@@ -80,7 +80,29 @@
     font-weight: 400;
 }
 
-.planform-logo-btn-point {
+.planform-logo-btn-point-bas {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #e50815;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-btn-point-sta {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #e50815;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-btn-point-pre {
     width: 120px;
     height: 120px;
     margin-right: 80px;
@@ -115,13 +137,41 @@
     padding: 15px;
 }
 
-.planform-tbbasic-point {
+.planform-tbbasic-basic-point {
     width: 120px;
     text-align: center;
     padding: 15px;
     font-size: 16px;
     font-weight: bold;
     color: #e50815;
+    margin-right: 80px;
+}
+
+.planform-tbbasic-standard-point {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e50815;
+    margin-right: 80px;
+}
+
+.planform-tbbasic-premium-point {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e50815;
+    margin-right: 80px;
+}
+
+.planform-tbbasic {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
     margin-right: 80px;
 }
 

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Signup2 from "../components/Signup2";
 import Signup3 from "../components/Signup3";
+import SignupNav from "../components/SignupNav";
 
 const Signup = () => {
   const [Signup, setSignup] = useState();
@@ -14,6 +15,7 @@ const Signup = () => {
   };
   return (
     <div>
+      <SignupNav />
       <div className="signup-logo-wrap">
         <img
           width={350}
