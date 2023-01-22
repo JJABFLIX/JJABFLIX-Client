@@ -21,7 +21,7 @@
 .signup-check-wrap-4 {
     width: 1000px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .signup-check-text2 {
@@ -61,14 +61,26 @@
     font-weight: 400;
 }
 
-.planform-logo-wrap-basic {
+.planform-logo-wrap {
     width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 30px;
 }
 
-.planform-logo-btn-basic {
+.planform-logo-btn {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #f37c79;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-btn-point {
     width: 120px;
     height: 120px;
     margin-right: 80px;
@@ -77,4 +89,89 @@
     border-radius: 3px;
     color: #fff;
     font-weight: 400;
+}
+
+.planform-tbline {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.planform-tbline-last {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.planform-tbtitle {
+    width: 400px;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.planform-tbbasic-point {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e50815;
+    margin-right: 80px;
+}
+
+.planform-tbstandard {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.planform-tbpremium {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.planform-lock-text-wrap {
+    border: none;
+    background-color: #f3f3f3;
+    width: 1000px;
+    margin: 0 auto;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.planform-lock-text {
+    margin-left: 15px;
+    line-height: 25px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.planform-next-btn-1 {
+    width: 450px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+}
+
+.planform-next-btn:hover {
+    background-color: #fb000d;
 }

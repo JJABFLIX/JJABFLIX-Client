@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Planform.css";
-import { AiOutlineCheck } from "react-icons/ai";
+import { AiOutlineCheck, AiFillLock } from "react-icons/ai";
+import PfBasic from "../components/PfBasic";
 
 const Planform = () => {
   return (
@@ -31,11 +32,15 @@ const Planform = () => {
           <h5>멤버십은 언제든지 변경 또는 해지 가능.</h5>
         </div>
       </div>
-      <div className="planform-logo-wrap">
-        <button className="planform-logo-btn">Basic</button>
-        <button className="planform-logo-btn">Standard</button>
-        <button className="planform-logo-btn">Premium</button>
+      <PfBasic />
+      <div className="planform-lock-text-wrap">
+        <AiFillLock size={20} color="#6d6e6e" />
+        <p className="planform-lock-text">
+          광고형 베이식에서는 라이선스 제한으로 인해 일부 영화와 시리즈를 이용할
+          수 없습니다. 일부 위치 및 디바이스 제한도 적용됩니다.
+        </p>
       </div>
+      <button className="planform-next-btn-1">다음</button>
     </div>
   );
 };
