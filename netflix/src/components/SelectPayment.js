@@ -115,6 +115,7 @@ const SelectPayment = () => {
           있습니다.
         </span>
       </div>
+      <button className="payment-sel-btn">유료 멤버십 시작</button>
     </div>
   );
 };
