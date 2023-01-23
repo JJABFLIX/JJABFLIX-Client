@@ -5,14 +5,13 @@ import PfBasic from "../components/PfBasic";
 import SignupNav from "../components/SignupNav";
 import PfStandard from "../components/PfStandard";
 import PfPremium from "../components/Pfpremium";
+import { Container } from "react-bootstrap";
 
 const Planform = () => {
   const [setMembership] = useState(0);
-
   const membershipBasic = () => {
     setMembership(<PfBasic />);
   };
-
   const membershipStandard = () => {
     setMembership(<PfStandard />);
   };
@@ -48,64 +47,66 @@ const Planform = () => {
           <h5>멤버십은 언제든지 변경 또는 해지 가능.</h5>
         </div>
       </div>
-      <div className="planform-logo-wrap">
-        <button
-          className="planform-logo-btn-point-bas"
-          onClick={membershipBasic}
-        >
-          Basic
-        </button>
-        <button className="planform-logo-btn" onClick={membershipStandard}>
-          Standard
-        </button>
-        <button className="planform-logo-btn" onClick={membershipPremium}>
-          Premium
-        </button>
-      </div>
-      <div className="planform-tbline">
-        <p className="planform-tbtitle">월 요금</p>
-        <span className="planform-tbbasic-basic-point">5,500원</span>
-        <span className="planform-tbstandard">13,500원</span>
-        <span className="planform-tbpremium">17,000원</span>
-      </div>
-      <div className="planform-tbline">
-        <span className="planform-tbtitle">영상 화질</span>
-        <span className="planform-tbbasic-basic-point">좋음</span>
-        <span className="planform-tbstandard">매우 좋음</span>
-        <span className="planform-tbpremium">가장 좋음</span>
-      </div>
-      <div className="planform-tbline">
-        <span className="planform-tbtitle">해상도</span>
-        <span className="planform-tbbasic-basic-point">720p</span>
-        <span className="planform-tbstandard">1080p</span>
-        <span className="planform-tbpremium">4K+HDR</span>
-      </div>
-      <div className="planform-tbline">
-        <span className="planform-tbtitle">
-          TV,컴퓨터,스마트폰,태블릿으로 시청
-        </span>
-        <span className="planform-tbbasic-basic-point">
-          <AiOutlineCheck size={18} />
-        </span>
-        <span className="planform-tbstandard">
-          <AiOutlineCheck size={18} />
-        </span>
-        <span className="planform-tbpremium">
-          <AiOutlineCheck size={18} />
-        </span>
-      </div>
-      <div className="planform-tbline-last">
-        <span className="planform-tbtitle">저장</span>
-        <span className="planform-tbbasic-basic-point">
-          <AiOutlineLine size={18} />
-        </span>
-        <span className="planform-tbstandard">
-          <AiOutlineCheck size={18} />
-        </span>
-        <span className="planform-tbpremium">
-          <AiOutlineCheck size={18} />
-        </span>
-      </div>
+      <Container>
+        <div className="planform-logo-wrap">
+          <button
+            className="planform-logo-btn-point-bas"
+            onClick={membershipBasic}
+          >
+            Basic
+          </button>
+          <button className="planform-logo-btn" onClick={membershipStandard}>
+            Standard
+          </button>
+          <button className="planform-logo-btn" onClick={membershipPremium}>
+            Premium
+          </button>
+        </div>
+        <div className="planform-tbline">
+          <p className="planform-tbtitle">월 요금</p>
+          <span className="planform-tbbasic-basic-point">5,500원</span>
+          <span className="planform-tbstandard">13,500원</span>
+          <span className="planform-tbpremium">17,000원</span>
+        </div>
+        <div className="planform-tbline">
+          <span className="planform-tbtitle">영상 화질</span>
+          <span className="planform-tbbasic-basic-point">좋음</span>
+          <span className="planform-tbstandard">매우 좋음</span>
+          <span className="planform-tbpremium">가장 좋음</span>
+        </div>
+        <div className="planform-tbline">
+          <span className="planform-tbtitle">해상도</span>
+          <span className="planform-tbbasic-basic-point">720p</span>
+          <span className="planform-tbstandard">1080p</span>
+          <span className="planform-tbpremium">4K+HDR</span>
+        </div>
+        <div className="planform-tbline">
+          <span className="planform-tbtitle">
+            TV,컴퓨터,스마트폰,태블릿으로 시청
+          </span>
+          <span className="planform-tbbasic-basic-point">
+            <AiOutlineCheck size={18} />
+          </span>
+          <span className="planform-tbstandard">
+            <AiOutlineCheck size={18} />
+          </span>
+          <span className="planform-tbpremium">
+            <AiOutlineCheck size={18} />
+          </span>
+        </div>
+        <div className="planform-tbline-last">
+          <span className="planform-tbtitle">저장</span>
+          <span className="planform-tbbasic-basic-point">
+            <AiOutlineLine size={18} />
+          </span>
+          <span className="planform-tbstandard">
+            <AiOutlineCheck size={18} />
+          </span>
+          <span className="planform-tbpremium">
+            <AiOutlineCheck size={18} />
+          </span>
+        </div>
+      </Container>
       <div className="planform-lock-text-wrap">
         <AiFillLock size={20} color="#6d6e6e" />
         <p className="planform-lock-text">
