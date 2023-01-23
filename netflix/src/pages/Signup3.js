@@ -2,10 +2,17 @@ import React from "react";
 import { BsCheckCircle } from "react-icons/bs";
 import { AiOutlineCheck } from "react-icons/ai";
 import "../css/Signup.css";
+import SignupNav from "../components/SignupNav";
+import { useNavigate } from "react-router-dom";
 
 const Signup3 = () => {
+  const navigate = useNavigate();
+  const navigateToNextSignup = () => {
+    navigate("/signup/:planform");
+  };
   return (
     <div>
+      <SignupNav />
       <div className="signup-logo-3">
         <BsCheckCircle size={50} color="rgb(229 8 21)" />
       </div>
@@ -45,7 +52,9 @@ const Signup3 = () => {
           <h5>모든 디바이스에서 무제한 시청.</h5>
         </div>
       </div>
-      <button className="signup-next-btn-3">다음</button>
+      <button className="signup-next-btn-3" onClick={navigateToNextSignup}>
+        다음
+      </button>
     </div>
   );
 };

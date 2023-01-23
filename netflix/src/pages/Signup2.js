@@ -1,8 +1,15 @@
 import React from "react";
+import SignupNav from "../components/SignupNav";
+import { useNavigate } from "react-router-dom";
 
 const Signup2 = () => {
+  const navigate = useNavigate();
+  const navigateToNextSignup = () => {
+    navigate("/signup3");
+  };
   return (
     <div>
+      <SignupNav />
       <span id="signupStep" className="signup-step-2">
         <b>3</b>단계 중<b>1</b>단계
       </span>
@@ -28,7 +35,9 @@ const Signup2 = () => {
           예, 넷플릭스 특별 할인 알림 이메일을 보내주세요. (선택사항)
         </span>
       </div>
-      <button className="signup-next-btn-2">동의하고 계속</button>
+      <button className="signup-next-btn-2" onClick={navigateToNextSignup}>
+        동의하고 계속
+      </button>
     </div>
   );
 };

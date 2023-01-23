@@ -7,6 +7,8 @@ import Start from "./pages/Start";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
 import Planform from "./pages/Planform";
+import Signup2 from "./pages/Signup2";
+import Signup3 from "./pages/Signup3";
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
       <Routes>
         <Route path="/start" element={<Start />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/signup2" element={<Signup2 />} />
+        <Route path="/signup3" element={<Signup3 />} />
         <Route path="/signup/:id" element={<Planform />} />
-
         <Route path="/" element={<Home />} />
 
         {/* <Route path="/signup" element={<Signup />}/>

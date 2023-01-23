@@ -1,17 +1,11 @@
-import React, { useState } from "react";
-import Signup2 from "../components/Signup2";
-import Signup3 from "../components/Signup3";
+import React from "react";
 import SignupNav from "../components/SignupNav";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
-  const [Signup, setSignup] = useState();
-  const handleClickButton = (e) => {
-    const { value } = e.target;
-    setSignup(value);
-  };
-  const selectComponent = {
-    signup2: <Signup2 />,
-    signup3: <Signup3 />,
+  const navigate = useNavigate();
+  const navigateToNextSignup = () => {
+    navigate("/signup2");
   };
   return (
     <div>
@@ -41,7 +35,7 @@ const Signup = () => {
           아무 때나 시청하세요.
         </h5>
       </div>
-      <button className="signup-next-btn" onClick={handleClickButton}>
+      <button className="signup-next-btn" onClick={navigateToNextSignup}>
         다음
       </button>
     </div>
