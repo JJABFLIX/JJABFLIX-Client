@@ -1,0 +1,13 @@
+.login-background {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/7eec8be2-105c-4ce6-b9d9-5ff1dae1042a/KR-ko-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.login-nav {
+    display: flex;
+}
+
+.login-nav img {
+    padding: 10px;
+}

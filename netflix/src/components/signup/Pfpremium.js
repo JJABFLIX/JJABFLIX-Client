@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/Planform.css";
+import "../../css/Planform.css";
 import { AiOutlineCheck, AiOutlineLine } from "react-icons/ai";
 import PfStandard from "./PfStandard";
 import PfBasic from "./PfBasic";

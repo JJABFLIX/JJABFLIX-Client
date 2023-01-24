@@ -1,6 +1,7 @@
 import React from "react";
-import SignupNav from "../components/SignupNav";
+import SignupNav from "./SignupNav";
 import { useNavigate } from "react-router-dom";
+import "../../css/Planform.css";
 
 const Signup2 = () => {
   const navigate = useNavigate();

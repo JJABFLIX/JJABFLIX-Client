@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/SelectPayment.css";
+import "../../css/SelectPayment.css";
 
 const Cardimg = () => {
   return (

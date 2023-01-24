@@ -1,8 +1,8 @@
 import React from "react";
 import { BsCheckCircle } from "react-icons/bs";
 import { AiOutlineCheck } from "react-icons/ai";
-import "../css/Signup.css";
-import SignupNav from "../components/SignupNav";
+import "../../css/Signup.css";
+import SignupNav from "./SignupNav";
 import { useNavigate } from "react-router-dom";
 
 const Signup3 = () => {

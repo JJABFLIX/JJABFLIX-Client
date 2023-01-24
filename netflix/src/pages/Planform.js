@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "../css/Planform.css";
 import { AiOutlineCheck, AiFillLock, AiOutlineLine } from "react-icons/ai";
-import PfBasic from "../components/PfBasic";
-import SignupNav from "../components/SignupNav";
-import PfStandard from "../components/PfStandard";
-import PfPremium from "../components/Pfpremium";
+import PfBasic from "../components/signup/PfBasic";
+import SignupNav from "../components/signup/SignupNav";
+import PfStandard from "../components/signup/PfStandard";
+import PfPremium from "../components/signup/Pfpremium";
 import { Container } from "react-bootstrap";
 
 const Planform = () => {

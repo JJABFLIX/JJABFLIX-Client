@@ -1,8 +1,8 @@
 import React from "react";
-import "../css/Planform.css";
-import SignupNav from "../components/SignupNav";
+import "../../css/SelectPayment.css";
+import SignupNav from "./SignupNav";
 import { RiRotateLockLine } from "react-icons/ri";
-import Cardimg from "../components/Cardimg";
+import Cardimg from "./Cardimg";
 
 const SelectPayment = () => {
   return (
