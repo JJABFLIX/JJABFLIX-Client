@@ -41,7 +41,9 @@ const StartAskList = () => {
           content2="키즈 프로필과 더불어 PIN 번호를 이용한 자녀 보호 기능도 있어, 자녀가 시청할 수 있는 콘텐츠의 관람등급을 제한하고 자녀의 시청을 원치 않는 특정 작품을 차단할 수도 있습니다."
       />
       <p className='start-final'>시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
+      <div className="start-final-joinbar">
       <JoinBar />
+      </div>
       <div className="marginBox" />
     </div>
   </div>
