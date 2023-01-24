@@ -1,0 +1,227 @@
+.signup-step-4 {
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.signup-step-4 b {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.signup-title-4 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.signup-check-wrap-4 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.signup-check-text2 {
+    width: 1000px;
+    height: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.signup-check-text2 h5 {
+    height: 30px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.signup3-icon {
+    height: 30px;
+    vertical-align: top;
+}
+
+.planform-logo-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.planform-logo-btn {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #ef6b72;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.planform-logo-btn {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #f37c79;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-btn-point-bas {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #e50815;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-btn-point-sta {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #e50815;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-logo-btn-point-pre {
+    width: 120px;
+    height: 120px;
+    margin-right: 80px;
+    background-color: #e50815;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.planform-tbline {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.planform-tbline-last {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.planform-tbtitle {
+    width: 400px;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.planform-tbbasic-basic-point {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e50815;
+    margin-right: 80px;
+}
+
+.planform-tbbasic-standard-point {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e50815;
+    margin-right: 80px;
+}
+
+.planform-tbbasic-premium-point {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e50815;
+    margin-right: 80px;
+}
+
+.planform-tbbasic {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.planform-tbstandard {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.planform-tbpremium {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.planform-lock-text-wrap {
+    border: none;
+    background-color: #f3f3f3;
+    width: 1000px;
+    margin: 0 auto;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.planform-lock-text {
+    margin-left: 15px;
+    line-height: 25px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.planform-next-btn-1 {
+    width: 450px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+}
+
+.planform-next-btn:hover {
+    background-color: #fb000d;
+}
