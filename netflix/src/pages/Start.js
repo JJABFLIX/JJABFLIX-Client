@@ -8,6 +8,7 @@ import StartAskList from '../components/start/StartAskList';
 import StartFooter from '../components/start/StartFooter';
 
 const Start = () => {
+
   return (
     <div>
       <StartMain />
