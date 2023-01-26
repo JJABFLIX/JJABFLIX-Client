@@ -19,22 +19,21 @@
     margin-bottom: 10px;
     font-size: 12px;
 }
-.start-language{
-    width:100px;
-    height:40px;
-    border:2px solid #737373;;
-    background-color: black;
-    color:#737373;
-    margin-left: 1050px;
+.footer-second{
+    width:800px;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0px auto;
 }
-.select-language{
-    background-color: black;
-    color:#737373;;
-    border:0px;
-}
-.select-icon{
+.second-fp{
+    font-size: 13px;
     color:#737373;
-    margin-top:10px;
-    margin-left:5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.second-ap{
+    font-size: 12px;
+    color:#737373;
+    margin-bottom: 0px;
 }

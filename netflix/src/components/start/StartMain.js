@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import { Row, Col} from "react-bootstrap";
 import SelectLanguage from './SelectLanguage';
 import JoinBar from "./JoinBar";
+import styled from "styled-components";
 
 const StartMain = () => {
   return (
