@@ -1,7 +1,9 @@
 import React,{useState} from 'react';
 import { Form } from 'react-bootstrap';
+import { useNavigate } from "react-router-dom";
 
 const JoinBar = () => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState(false);
   const onChangeEmail = (e) => {
@@ -11,13 +13,25 @@ const JoinBar = () => {
     setEmail(e.target.value);
   };
   const validation = () => {
-    if(!email) setEmailError(true);
+    if(!email) {
+      setEmailError(true);
+      return emailError;
+    }else{
+      return emailError;
+    }
 
-    if(email) return true;
-    else return false;
+    //if(email) return true;
+    //else return false;
+  
   }
-  const onSubmit = (e) => {
-    if(validation()) return;
+  const onSubmit = () => {
+  if(validation()==false){
+    navigate("/signup")
+  }else{
+    console.log("실패");
+    email.focus();
+  }
+    
   }
 
   return (
